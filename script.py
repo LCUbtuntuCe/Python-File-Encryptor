@@ -63,6 +63,7 @@ class Encryptor:
         for file_name in dirs:
             self.decrypt_file(file_name)
 
+# 从这里开始往下就是这个项目的主程序部分
 
 key = b'[EX\xc8\xd5\xbfI{\xa2$\x05(\xd5\x18\xbf\xc0\x85)\x10nc\x94\x02)j\xdf\xcb\xc4\x94\x9d(\x9e'
 enc = Encryptor(key)
